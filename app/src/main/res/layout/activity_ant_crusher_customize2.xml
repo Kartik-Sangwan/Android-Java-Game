@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_backg"
+    tools:context=".AntCrusher.AntView.AntCrusherCustomize">
+
+
+    <TextView
+        android:id="@+id/customize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:text="Customize"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/light"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customize"
+        android:layout_centerHorizontal="true"
+        android:text="Light Background"
+        />
+
+    <Button
+        android:id="@+id/dark"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/light"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Dark Background"
+        />
+
+    <Button
+        android:id="@+id/database"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/light"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="HIGH SCORE"
+        />
+
+</RelativeLayout>

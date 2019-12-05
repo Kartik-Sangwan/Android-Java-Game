@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/invasion2000"
+        android:text="LEADERBOARDS"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/astron_boy"
+        android:text="Display scores for Memorize:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/title1" />
+
+    <Button
+        android:id="@+id/score1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sort By Score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Show User History"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintTop_toBottomOf="@id/score1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/moves1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sort By Moves Left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintTop_toBottomOf="@id/name1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/astron_boy"
+        android:text="Display scores for Ant Crusher:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#E91E63"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/moves1" />
+
+    <Button
+        android:id="@+id/score2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sort By Score"
+        app:layout_constraintTop_toBottomOf="@id/info2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Show User History"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/score2" />
+
+    <Button
+        android:id="@+id/level1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sort By Level Reached"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name2" />
+
+    <TextView
+        android:id="@+id/info3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/astron_boy"
+        android:text="Display scores for TrueBlue's Adventure:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#280179"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/level1" />
+
+    <Button
+        android:id="@+id/score3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sort By Score"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info3" />
+
+    <Button
+        android:id="@+id/name3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Show User History"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/score3" />
+
+    <Button
+        android:id="@+id/level2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sort By Level Reached"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name3" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="@font/atari_extended"
+        android:text="Return to Menu"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

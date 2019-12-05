@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Final_Game</string>
+    <string name="game1">GAME 1</string>
+    <string name="game2">GAME 2</string>
+    <string name="game3">GAME 3</string>
+    <string name="imagebutton">button</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="antimage"></string>
+    <string name="ANTTEXT">ANT CRUSHER</string>
+    <string name="ANTHIGHSCORE">HIGH SCORE</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Sign Up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

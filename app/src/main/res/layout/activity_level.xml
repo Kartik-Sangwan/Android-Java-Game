@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_backg7"
+
+    tools:context=".AntCrusher.AntView.AntLevelActivity">
+
+    <TextView
+        android:id="@+id/newLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:text="New Level"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+
+
+
+
+</RelativeLayout>

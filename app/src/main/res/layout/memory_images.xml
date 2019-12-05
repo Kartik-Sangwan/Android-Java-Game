@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Used https://www.youtube.com/watch?v=iIFKMDVodMw and
+https://developer.android.com/guide/topics/ui/layout/linear to learn-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="95dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_11"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00"
+            android:paddingRight="10dp"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:id="@+id/iv_12"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:paddingRight="10dp"
+            android:src="@drawable/bv_00" />
+
+        <ImageView
+            android:id="@+id/iv_13"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00"
+            android:paddingRight="10dp" />
+
+        <ImageView
+            android:id="@+id/iv_14"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="95dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_21"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00"
+            android:paddingRight="10dp"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:id="@+id/iv_22"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:paddingRight="10dp"
+            android:src="@drawable/bv_00" />
+
+        <ImageView
+            android:id="@+id/iv_23"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00"
+            android:paddingRight="10dp" />
+
+        <ImageView
+            android:id="@+id/iv_24"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="95dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_31"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00"
+            android:paddingRight="10dp"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:id="@+id/iv_32"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:paddingRight="10dp"
+            android:src="@drawable/bv_00" />
+
+        <ImageView
+            android:id="@+id/iv_33"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00"
+            android:paddingRight="10dp" />
+
+        <ImageView
+            android:id="@+id/iv_34"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="385dp"
+        android:layout_height="95dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/iv_41"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00"
+            android:paddingRight="10dp"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:id="@+id/iv_42"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:paddingRight="10dp"
+            android:src="@drawable/bv_00" />
+
+        <ImageView
+            android:id="@+id/iv_43"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00"
+            android:paddingRight="10dp" />
+
+        <ImageView
+            android:id="@+id/iv_44"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/bv_00" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game_backg8"
+    tools:context=".AntCrusher.AntView.AntOverActivity">
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:text="Game Over"
+        android:textAlignment="center"
+        android:textSize="70dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/play_again"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gameOver"
+        android:layout_centerHorizontal="true"
+        android:text="Play Again"
+        />
+
+    <TextView
+        android:id="@+id/score_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:text="Score"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <TextView
+        android:id="@+id/time_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500dp"
+        android:text="Time"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:id="@+id/level_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550dp"
+        android:text="Level"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/all_games"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/play_again"
+        android:layout_centerHorizontal="true"
+        android:text="Main menu"/>
+
+
+
+</RelativeLayout>
