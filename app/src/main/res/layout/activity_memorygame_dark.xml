@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_memorygame_dark"
@@ -99,4 +99,4 @@
 
     <!--Used https://www.youtube.com/watch?v=gkh-5pmYEa0 and
     https://developer.android.com/guide/topics/ui/layout/constraint to learn-->
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

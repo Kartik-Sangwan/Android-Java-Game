@@ -210,6 +210,7 @@ public class MainActivity extends AppCompatActivity {
           GoogleSignInAccount account = completedTask.getResult(ApiException.class);
           String usr = account.getDisplayName();
           gameDb.createUser(usr, "password");
+          Toast.makeText(MainActivity.this, "Welcome"+usr, Toast.LENGTH_LONG);
           Intent intent = new Intent(MainActivity.this, GameActivity.class);
           startActivity(intent);
       } catch (Exception e) {
